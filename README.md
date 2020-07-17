@@ -201,10 +201,11 @@ _Libraries that provide external configuration._
 
 - [centraldogma](https://github.com/line/centraldogma) - Highly-available version-controlled service configuration repository based on Git, ZooKeeper and HTTP/2.
 - [cfg4j](https://github.com/cfg4j/cfg4j) - Modern configuration library for distributed apps written in Java.
-- [config](https://github.com/lightbend/config) - Configuration library for JVM languages.
+- [config](https://github.com/lightbend/config) - Configuration library supporting Java properties, JSON or its human optimized superset HOCON.
 - [dotenv](https://github.com/shyiko/dotenv) - Twelve-factor configuration library which uses environment-specific files.
 - [ini4j](http://ini4j.sourceforge.net) - Provides an API for handling Windows' INI files.
 - [KAConf](https://github.com/mariomac/kaconf) - Annotation-based configuration system for Java and Kotlin.
+- [microconfig](https://microconfig.io) - Configuration system designed for microservices which helps to separate configuration from code. The configuration for different services can have common and specific parts and can be dynamically distributed. 
 - [owner](https://github.com/lviggiano/owner) - Reduces boilerplate of properties.
 
 ### Constraint Satisfaction Problem Solver
@@ -248,6 +249,7 @@ _Everything that simplifies interactions with the database._
 - [Apache Phoenix](https://phoenix.apache.org) - High-performance relational database layer over HBase for low-latency applications.
 - [AranoDB](https://github.com/arangodb/arangodb-java-driver) - ArangoDB Java driver.
 - [Chronicle Map](https://github.com/OpenHFT/Chronicle-Map) - Efficient, in-memory (opt. persisted to disk), off-heap key-value store.
+- [Debezium](https://debezium.io/) - Low latency data streaming platform for change data capture.
 - [druid](https://druid.apache.org) - High-performance, column-oriented, distributed data store.
 - [eXist](https://github.com/eXist-db/exist) - NoSQL document database and application platform. (LGPL-2.1-only)
 - [FlexyPool](https://github.com/vladmihalcea/flexy-pool) - Brings metrics and failover strategies to the most common connection pooling solutions.
@@ -406,6 +408,7 @@ _Frameworks that support the development of games._
 - [jMonkeyEngine](https://jmonkeyengine.org) - Game engine for modern 3D development.
 - [libGDX](https://libgdx.badlogicgames.com) - All-round cross-platform, high-level framework.
 - [LWJGL](https://www.lwjgl.org) - Robust framework that abstracts libraries like OpenGL/CL/AL.
+- [Mini2Dx](https://mini2dx.org) - Beginner-friendly, master-ready framework for rapidly prototyping and building 2D games.
 
 ### Geospatial
 
@@ -459,6 +462,7 @@ _Libraries that assist with creating HTTP requests and/or binding responses._
 
 _Libraries that handle serialization to hypermedia types._
 
+- [hate](https://github.com/blackdoor/hate) - Builds hypermedia-friendly objects according to HAL specification.
 - [JSON-LD](https://github.com/jsonld-java/jsonld-java) - JSON-LD implementation.
 - [Siren4J](https://github.com/eserating/siren4j) - Library for the Siren specification.
 
@@ -481,7 +485,7 @@ _Libraries that assist with the creation, evaluation or manipulation of graphica
 - [Thumbnailator](https://github.com/coobird/thumbnailator) - High-quality thumbnail generation library.
 - [TwelveMonkeys](https://github.com/haraldk/TwelveMonkeys) - Collection of plugins that extend the number of supported image file formats.
 - [ZXing](https://github.com/zxing/zxing) - Multi-format 1D/2D barcode image processing library.
-- [image-comparison](https://github.com/romankh3/image-comparison) - Compares two images with the same sizes and shows the differences visually by drawing rectangles.
+- [image-comparison](https://github.com/romankh3/image-comparison) - Library that compares 2 images with the same sizes and shows the differences visually by drawing rectangles. Some parts of the image can be excluded from the comparison. Can be used for automation qa tests.
 
 ### Introspection
 
@@ -498,6 +502,7 @@ _Libraries that help make the Java introspection and reflection API easier and f
 
 _Libraries for scheduling background jobs._
 
+- [JobRunr](https://github.com/jobrunr/jobrunr) - Job scheduling library which utilizes lambdas for fire-and-forget, delayed and recurring jobs. Guarantees execution by single scheduler instance using optimistic locking. Has features for persistence, minimal dependencies and is embeddable.
 - [Quartz](https://github.com/quartz-scheduler/quartz) - Feature-rich, open source job scheduling library that can be integrated within virtually any Java application.
 - [Sundial](https://github.com/knowm/Sundial) - Lightweight framework to simply define jobs, define triggers and start the scheduler.
 - [Wisp](https://github.com/Coreoz/Wisp) - Simple library with minimal footprint and straightforward API.
@@ -531,6 +536,7 @@ _Current implementations of the JVM/JDK._
 - [Adopt Open JDK](https://adoptopenjdk.net) - Community-driven OpenJDK builds, including both HotSpot and OpenJ9.
 - [Avian](https://github.com/ReadyTalk/avian) - JVM with JIT, AOT modes and iOS port.
 - [Corretto](https://aws.amazon.com/corretto/) - No-cost, multiplatform, production-ready distribution of OpenJDK by Amazon. (GPL-2.0-only WITH Classpath-exception-2.0)
+- [Dragonwell8](https://github.com/alibaba/dragonwell8) - Downstream version of OpenJDK optimized for online e-commerce, financial, logistics applications.
 - [Graal](https://github.com/oracle/graal) - Polyglot embeddable JVM. (GPL-2.0-only WITH Classpath-exception-2.0)
 - [Liberica JDK](https://bell-sw.com) - Built from OpenJDK, thoroughly tested and passed the JCK. (GPL-2.0-only WITH Classpath-exception-2.0)
 - [OpenJ9](https://github.com/eclipse/openj9) - High performance, enterprise-calibre, flexibly licensed, openly-governed cross-platform JVM extending and augmenting the runtime technology components from the Eclipse OMR and OpenJDK project.
@@ -539,7 +545,6 @@ _Current implementations of the JVM/JDK._
 - [RedHat Open JDK](https://developers.redhat.com/products/openjdk/overview) - RedHat's OpenJDK distribution. (GPL-2.0-only WITH Classpath-exception-2.0)
 - [SAP Machine](https://sap.github.io/SapMachine/) - SAP's no-cost, rigorously tested and JCK-verified OpenJDK friendly fork. (GPL-2.0-only WITH Classpath-exception-2.0)
 - [Zulu](https://www.azul.com/products/zulu-community/) - OpenJDK builds for Windows, Linux, and macOS. (GPL-2.0-only WITH Classpath-exception-2.0)
-- [Dragonwell8](https://github.com/alibaba/dragonwell8) - Downstream version of OpenJDK optimized for online e-commerce, financial, logistics applications.
 
 ### Logging
 
@@ -739,6 +744,7 @@ _Tools to help with PDF file creation._
 - [Apache PDFBox](https://pdfbox.apache.org) - Toolbox for creating and manipulating PDFs.
 - [Dynamic Jasper](http://dynamicjasper.com) - Abstraction layer to JasperReports. (LGPL-3.0-only)
 - [DynamicReports](https://github.com/dynamicreports/dynamicreports) - Simplifies JasperReports. (LGPL-3.0-only)
+- [Eclipse BIRT](https://www.eclipse.org/birt) - Report engine for creating PDF and other formats (DOCX, XLSX, HTML, etc) using Eclipse-based visual editor.
 - [flyingsaucer](https://github.com/flyingsaucerproject/flyingsaucer) - XML/XHTML and CSS 2.1 renderer. (LGPL-2.1-or-later)
 - [iText ![c]](https://itextpdf.com/en) - Creates PDF files programmatically.
 - [JasperReports](https://community.jaspersoft.com/project/jasperreports-library) - Complex reporting engine. (LGPL-3.0-only)
@@ -932,6 +938,7 @@ _Servers specifically used to deploy applications._
 
 _Tools that substitute expressions in a template._
 
+- [Freemarker](https://freemarker.apache.org) - Library to generate text output (HTML web pages, e-mails, configuration files, source code, etc.) based on templates and changing data.
 - [Handlebars.java](https://jknack.github.io/handlebars.java/) - Logicless and semantic Mustache templates.
 - [Jade4J](https://github.com/neuland/jade4j) - Implementation of Pug (formerly known as Jade).
 - [Jtwig](http://jtwig.org) - Modular, configurable and fully tested template engine.
